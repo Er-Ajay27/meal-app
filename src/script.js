@@ -9,7 +9,7 @@ if (favoritesData) {
     console.error("Error parsing favorites from local storage:", error);
   }
 }
-
+//Event Listener for search Input
 document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById("search");
 
